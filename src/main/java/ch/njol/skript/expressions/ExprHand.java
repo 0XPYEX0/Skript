@@ -29,7 +29,7 @@ import org.jetbrains.annotations.Nullable;
 	"    if event-hand is off hand",
 	"        send \"It is off hand\" to event-player"
 })
-@Since("2.8.6")
+@Since("INSERT VERSION")
 public class ExprHand extends SimpleExpression<Slot> {
 	private static final WeakHashMap<Class<? extends Event>, Method> GET_HAND_METHODS = new WeakHashMap<>();
 
